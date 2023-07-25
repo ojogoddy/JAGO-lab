@@ -1,0 +1,181 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Montserrat;
+}
+header{
+    background-color: #041937;
+    color: white;
+    height: 90px;
+	width: 100%;
+	position: fixed;
+}
+.header-sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 100px;
+    
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 800;
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+}
+nav{
+    margin-right: 50px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.booknow-btn{
+    background-color: #041937;
+    color: white;
+    border-radius: 18px;
+    text-align: center;
+    border: 2px solid #ffffff;
+    padding: 10px;
+    width: 120px;
+    font-size: 14px;
+    font-weight: 500;
+    
+}
+/* About hero */
+.About-layer{
+	padding-top: 0px;
+	height: 500px;
+	width: 100%;
+	background-color: #041937;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.first-about{
+	margin-left: 100px;
+}
+.second-about{
+	margin-right: 100px;
+}
+.first-about h5{
+	color: white;
+	font-size: 15px;
+	font-weight: 250;
+}
+.first-about h3{
+	font-size: 40px;
+	font-weight: bold;
+	color: white;
+}
+.second-about p{
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 30px;
+	color: white;
+	width: 430px;
+}
+.image-about{
+	text-align: center;
+	width:  100%;
+	height: 90vh;
+	overflow: hidden;
+	background-color: #041937;
+
+}
+.image-about img{
+	border-radius: 40px;
+	width: 60%;
+	object-fit: contain; 
+}
+
+/*Second layout*/
+
+.white-aboutPage{
+	padding-top: 50px;
+	background-color: white;
+	height: 400px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 50px;
+	padding-bottom: 100px;
+}
+.white-text{
+	margin-left: 100px;
+}
+.image-man{
+	margin-right: 100px;
+}
+.white-text h3{
+	font-size: 40px;
+	font-weight: bold;
+	color: #041937;
+}
+.white-text h5{
+	font-size: 15px;
+	font-weight: 250;
+	margin: 0px;
+	color: #041937;
+}
+.white-text p{
+	color: #041937;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 30px;
+	width: 430px;
+	margin: 0;
+}
+.image-man{
+	height: 400px;
+	width: 400px;
+	border-radius: 20px;
+	overflow: hidden;
+}
+.image-man img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+ul li{
+	font-size: 24px;
+	color: #041937;
+}
+
+footer{
+    background-color: #041937;
+    color: #ffffff;
+}
+.footer-sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 300px;
+	margin-left: 90px;
+}
+.footer1{
+    line-height: 35px;
+}
+.footer2{
+    line-height: 35px;
+}
+.footer3{
+    line-height: 35px;
+}
+.footer4{
+    line-height: 35px;
+}
+.i {
+	margin-left: 10px;
+}
