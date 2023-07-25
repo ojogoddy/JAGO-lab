@@ -42,6 +42,9 @@ nav{
     margin-right: 50px;
     font-size: 14px;
     font-weight: 500;
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
 }
 nav:hover{
     text-decoration: underline;
@@ -69,6 +72,10 @@ nav:hover{
     font-weight: 500;
     margin-bottom: 40px;
 }
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
 .hero{
     background-color: #041937;
     color: #ffffff;
@@ -79,9 +86,7 @@ nav:hover{
     height: 500px;
     margin-top: 90px;
 }
-.hero-text{
-    width: 90%;
-}
+
 .hero h1{
     width: 600px;
     font-size: 55px;
@@ -92,9 +97,14 @@ nav:hover{
     line-height: 30px;
     margin-bottom: 40px;
 }
+.hero img{
+    width: 740px;
+   
+}
+
 .hero2{
     background-color: white;
-    height: 420px;
+    height: 450px;
 }
 .testimonial{
     text-align: center;
@@ -131,4 +141,43 @@ nav:hover{
     margin-top: 20px;
     margin-right: 30px;
 }
+.hero3{
+    background-image: url(./image/missionBackground.jpeg);
+    color: #ffffff;
+    text-align: center;
+    height: 250px;
+    width: 100%;
+}
+.mission{
+    padding-top: 20px;
+    margin: 0 auto;
+    width: 90%;
+}
 
+footer{
+    background-color: #041937;
+    color: #ffffff;
+}
+.footer-sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 300px;
+    margin-left: 90px;
+}
+.footer1{
+    line-height: 35px;
+}
+.footer2{
+    line-height: 35px;
+}
+.footer3{
+    line-height: 35px;
+}
+.footer4{
+    line-height: 35px;
+}
+i{
+    margin-right: 10px;
+}
