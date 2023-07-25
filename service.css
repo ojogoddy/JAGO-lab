@@ -41,8 +41,16 @@ nav{
     margin-right: 50px;
     font-size: 14px;
     font-weight: 500;
+    cursor: pointer;
+    transition: transform .4s;
 }
-.booknow-btn{
+nav:hover{
+    transform: scale(1.2);
+    transition: 0.5s ease-in;
+    text-decoration: underline;
+
+}
+button{
     background-color: #041937;
     color: white;
     border-radius: 18px;
@@ -52,7 +60,13 @@ nav{
     width: 120px;
     font-size: 14px;
     font-weight: 500;
+    cursor: pointer;
     
+}
+button:hover{
+    transform: scale(1.2);
+    transition: 0.5s ease-in;
+
 }
 .section1{
     background-color: #041937;
@@ -98,6 +112,7 @@ nav{
     justify-content: center;
 }
 
+
 .questions{
     height: 400px;
     width: 100%;
@@ -127,7 +142,11 @@ nav{
     font-size: 14px;
     font-weight: 500;
     margin-top: 40px;
-    
+    cursor: pointer;   
+}
+button:hover{
+    transform: scale(1.2);
+    transition: 0.5s ease-in;
 }
 .questions_p p{
     width: 420px;
@@ -142,8 +161,9 @@ footer{
 }
 .footer-sec{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    padding-top: 40px;
     width: 90%;
     height: 300px;
     margin-left: 90px;
@@ -162,6 +182,11 @@ footer{
 }
 i{
     margin-right: 10px;
+}
+
+footer :hover{
+    cursor: pointer;
+    
 }
 
 
