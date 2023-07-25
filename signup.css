@@ -84,3 +84,7 @@ form a{
 .input-group{
     height: 280px;
 }
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
