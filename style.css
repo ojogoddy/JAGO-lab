@@ -58,7 +58,7 @@ nav{
 }
 .booking-text h3{
     font-size: 24px;
-    font-weight: 300;
+    font-weight: 500;
     color: #041937;
 }
 .booking-text h1{
@@ -101,7 +101,6 @@ input::placeholder{
     width: 15%;
     position: relative;
     top: 6px;
-    border-top-color: red;
 }
 
 .booking-man{
