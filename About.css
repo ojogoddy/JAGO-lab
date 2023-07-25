@@ -36,8 +36,18 @@ nav{
     margin-right: 50px;
     font-size: 14px;
     font-weight: 500;
+	cursor: pointer;
+    transition: transform .4s;
+
 }
-.booknow-btn{
+nav:hover{
+	transform: scale(1.2);
+    transition: 0.5s ease-in;
+	text-decoration: underline;
+    transition: transform .4s;
+
+}
+button{
     background-color: #041937;
     color: white;
     border-radius: 18px;
@@ -47,7 +57,14 @@ nav{
     width: 120px;
     font-size: 14px;
     font-weight: 500;
-    
+	cursor: pointer;
+    transition: transform .4s;
+
+}
+button:hover{
+    transform: scale(1.2);
+    transition: 0.5s ease-in;
+	border-bottom: 2px solid ;
 }
 /* About hero */
 .About-layer{
@@ -106,17 +123,18 @@ nav{
 	height: 400px;
 	width: 100%;
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
+	gap: 250px;
 	align-items: center;
 	margin-top: 50px;
 	padding-bottom: 100px;
 }
-.white-text{
+/* .white-text{
 	margin-left: 100px;
 }
 .image-man{
 	margin-right: 100px;
-}
+} */
 .white-text h3{
 	font-size: 40px;
 	font-weight: bold;
@@ -138,7 +156,7 @@ nav{
 }
 .image-man{
 	height: 400px;
-	width: 400px;
+	width: 500px;
 	border-radius: 20px;
 	overflow: hidden;
 }
@@ -157,9 +175,10 @@ footer{
     color: #ffffff;
 }
 .footer-sec{
+	padding-top: 40px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
+	gap: 150px;
     width: 90%;
     height: 300px;
 	margin-left: 90px;
@@ -176,6 +195,6 @@ footer{
 .footer4{
     line-height: 35px;
 }
-.i {
-	margin-left: 10px;
+i {
+	margin-right: 10px;
 }
