@@ -1,0 +1,108 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+}
+header{
+    background-color: #041937;
+    color: white;
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 800;
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+}
+nav{
+    margin-right: 50px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.booknow-btn{
+    background-color: #041937;
+    color: white;
+    border-radius: 18px;
+    text-align: center;
+    border: 2px solid #ffffff;
+    padding: 10px;
+    width: 120px;
+    font-size: 14px;
+    font-weight: 500;
+    
+}
+.service-sec{
+    width: 100%;
+}
+.service{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    
+}
+
+.text_holder{
+    width: 80%;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+}
+
+.server{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #041937;
+}
+
+.service_img{
+    width:70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #041937;
+}
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.images img{
+    width: 200px;
+    height: 250px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.Question{
+    width: 100%;
+    background-color: #ffff;
+    color: #041937;
+}
