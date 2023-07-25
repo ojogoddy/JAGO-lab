@@ -50,13 +50,13 @@ nav{
 .contact-header{
     display: flex;
     justify-content: space-between;
-    align-items: center;
     width: 100%;
     height: 90vh;
     background-color:#041937 ; 
+    padding-top: 50px;
 }
-.contact-second{
-    margin-right: 100px;
+.contact-div{
+    justify-content: space-between;
 }
 
 /* Contact left side */
@@ -99,4 +99,89 @@ textarea{
 textarea::placeholder{
     color: #041937;
     font-size: 15px;
+}
+.contact-second{
+    margin-right: 100px;
+    width: 40%;
+}
+.contact-second h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.contact-second p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.icon-contact{
+    align-items: center;
+}
+.icon-contact h4{
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-right: 15px;
+    align-items: center;
+}
+.icon-contact i{
+    padding-right: 20px;
+    font-size: 30px;
+}
+span{
+    font-size: 15px;
+    /* padding-left: 60px; */
+
+}
+
+.whatapp{
+    display: flex;
+    width: 0 auto;
+    height: 400px;
+    justify-content: center;
+    gap: 300px;
+    text-align: center;
+    padding-top: 50px ;
+    padding-bottom: 50px;
+}
+.whatapp-text{
+    margin-left: 100px;
+    width: 450px;
+    text-align: center;
+}
+.whatapp-img{
+margin-right: 100px;
+width: 300px;
+height: 400px;
+border-radius: 40px;
+overflow: hidden;
+}
+.whatapp-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+footer{
+    background-color: #041937;
+    color: #ffffff;
+}
+.footer-sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 300px;
+	margin-left: 90px;
+}
+.footer1{
+    line-height: 35px;
+}
+.footer2{
+    line-height: 35px;
+}
+.footer3{
+    line-height: 35px;
+}
+.footer4{
+    line-height: 35px;
 }
