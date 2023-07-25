@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+}
+header{
+    background-color: #041937;
+    color: white;
+    height: 90px;
+}
+.header-sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 100px;
+    
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 800;
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+}
+nav{
+    margin-right: 50px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.booknow-btn{
+    background-color: #041937;
+    color: white;
+    border-radius: 18px;
+    text-align: center;
+    border: 2px solid #ffffff;
+    padding: 10px;
+    width: 120px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.hero_btn{
+    background-color: #041937;
+    color: white;
+    border-radius: 18px;
+    text-align: center;
+    border: 2px solid #ffffff;
+    padding: 10px;
+    width: 120px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+.hero{
+    background-color: #041937;
+    color: #ffffff;
+    display: flex;
+    padding-bottom: 60px;
+    padding: 0 100px;
+    height: 500px
+}
+.hero h1{
+    width: 600px;
+    font-size: 50px;
+}
+.hero p{
+    width: 600px;
+    line-height: 30px;
+}
