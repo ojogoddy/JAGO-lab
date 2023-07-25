@@ -145,3 +145,40 @@ label {
 input{
 
 }
+
+footer {
+    background-color: #041937;
+    color: #ffffff;
+    }
+
+    .footer-sec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 300px;
+    margin-left: 90px;
+    }
+
+    .footer1 {
+    line-height: 35px;
+    }
+
+    .footer2 {
+    line-height: 35px;
+    }
+
+    .footer3 {
+    line-height: 35px;
+    }
+
+    .footer4 {
+    line-height: 35px;
+    }
+
+    i {
+    margin-right: 10px;
+    }
+
+    
+    
