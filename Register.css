@@ -42,4 +42,11 @@ label{
     color: #041937;
     margin-left: 30px;
 }
-
+select{
+    padding-left: 30px;
+    width: 260px;
+    border-radius: 5px;
+    height: 30px;
+    border: 1px solid #041937;
+    margin-top: 20px; 
+}
