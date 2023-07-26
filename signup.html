@@ -17,21 +17,23 @@
             <form>
                 <div class="input-group">
                     <div class="input-field" id="nameField">
-                        <input type="text" placeholder="Name">
+                        <input type="text" placeholder="Name" id="username" required>
                     </div>
                     <div class="input-field">
-                        <input type="email" placeholder="Email">
+                        <input type="email" placeholder="Email" id="email" required>
                     </div>
                     <div class="input-field">
-                        <input type="password" placeholder="Password">
+                        <input type="password" placeholder="Password" id="password" required>
                     </div>
                 </div>
                 <div class="btn-field">
-                    <button type="button" class="signupBtn">Sign up</button>
-                    <button type="button" class="signupBtn"><a href="./signin.html">Sign In</a></button>
+                    <button type="button" class="signupBtn" id="signup-btn">Sign up</button>
+                    <button type="button" class="signinBtn"><a href="./signin.html"><p>Sign In</p></a></button>
                 </div>
             </form>
         </div>
     </div>
+
+    <script src="signup.js"></script>
 </body>
 </html>
