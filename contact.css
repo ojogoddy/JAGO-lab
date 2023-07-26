@@ -77,7 +77,22 @@ button:hover{
 /* Contact left side */
 .contact-first{
 margin-left: 100px;
+/* animation-name: contactAnim; */
+animation-name: myHeading;
+animation-duration: 3s;
+position: relative;
+left: 0;
+top: 0;
 }
+@keyframes myHeading{
+    0%{
+        top: -1000px;
+    }
+    100%{
+        left: 0;
+    }
+}
+
 .contact-first p{
     font-size: 20px;
     font-weight: 400;
@@ -123,6 +138,19 @@ textarea::placeholder{
 .contact-second{
     margin-right: 100px;
     width: 40%;
+    animation-name: myContent;
+    animation-duration: 3s;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+@keyframes myContent{
+    0%{
+        left: -1000px;
+    }
+    100%{
+        top: 0;
+    }
 }
 .contact-second h1{
     font-size: 40px;
