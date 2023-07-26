@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,600;1,700;1,900&display=swap');
+      </style>
+</head>
+<body>
+    <header>
+        <div class="header-sec">
+            <div class="logo">
+                <img src="./image/Untitled-1 copy.png" alt="">
+                <h3>JAGO <br>LAB</h3>
+            </div>
+            <div class="navigation">
+                <nav>HOME</nav>
+                <nav>ABOUT US</nav>
+                <nav>SERVICE</nav>
+                <nav>CONTACT US</nav>
+            </div>
+            <div class="header-btn">
+                <button class="booknow-btn"> Book Now</button>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="booking-text">
+                <h3>Book Now</h3>
+                <h1>Are you Ready? Book Your<br>Appointment Now</h1>
+            </div>
+            <div class="form">
+                <form>
+                    <input id="first" type="text" placeholder="Full Name" required value="">
+                      <br>      
+                    <input id="second" type="email" placeholder="Email address" required value="">
+                          <br>     
+                     <input id="third" type="tel" placeholder="Phone number" required value="">
+                     <br>
+                     <div class="check-box">
+                        <h4>Gender :</h4>
+                        <label for="Male">Male<input class="check" type="checkbox" name="Male"></label>
+                        <label for="Female">Female<input class="check" type="checkbox" name="Female"></label>
+                     </div>
+                     <br>
+                <button onclick="addBooking()" class="but-ton" type="submit"> Book An Appointment</button>
+                </form>
+
+             </div>
+        </div>
+        <div class="booking-man">
+            <img src="./image/man in white.png" alt="">
+        </div>
+    </div>
+    <footer>
+        <div class="footer-sec">
+            <div class="footer1">
+                <h3>JAGO Lab</h3>
+                <nav>About Us</nav>
+                <nav>Newsroom</nav>
+                <nav>Careers</nav>
+                <nav>Investors</nav>
+            </div>
+            <div class="footer2">
+                <h3>FAQs</h3>
+                <nav>Labs</nav>
+                <nav>Test Results>
+                <nav>All Patients</nav>
+                <nav>All Providers</nav>
+            </div>
+            <div class="footer3">
+                <h3>Quick Links</h3>
+                <nav>Drug Development</nav>
+                <nav>Drug testing</nav>
+                <nav>Paternity testing</nav>
+                <nav>Health Testing</nav>
+            </div>
+            <div class="footer4">
+                <h3>Contact Us</h3>
+                <nav>Patients</nav>
+                <nav>laboratory</nav>
+                <div class="social icon">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-facebook"></i>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="booking.js">
+
+    </script>
+</body>
+
+</html>

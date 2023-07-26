@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+ .register{
+    margin-top: 50px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    border: 3px solid #041937;
+    border-radius: 20px;
+    padding: 10px 40px;
+    width: 50%;
+}
+.reg-box{
+    margin-top: 30px;
+    color: white;
+    background-color: #041937;
+    height: 40px; 
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+} 
+.input-text{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+
+input{
+    display: flex;
+    width: 360px;
+    border-radius: 5px;
+    height: 40px;
+    border: 2px solid #041937;
+    background: none;
+    font-size: 18px;
+    outline: none;
+}
+label{
+    display: flex;
+    align-items: center;
+    width: 250px;
+    font-size: 22px;
+    font-weight: 500;
+    color: #041937;
+    padding-right: 30px;
+}
+select{
+    display: flex;
+    font-size: 18px;
+    width: 370px;
+    border-radius: 5px;
+    height: 40px;
+    border: 2px solid #041937;
+    background: none;
+    outline: none;
+}
+button{
+    margin-top: 30px;
+    background-color: #041937;
+    color: white;
+    margin-bottom: 30px;
+    border-radius: 18px;
+    text-align: center;
+    border: 2px solid #ffffff;
+    padding: 10px 40px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    
+}
+button:hover{
+    transform: scale(1.2);
+    transition: 0.5s ease-in;
+}
