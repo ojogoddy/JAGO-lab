@@ -10,7 +10,7 @@ let labReg = [
         Testoffering: "HIV/AIDS Test",
     }
 ]
-localStorage.setItem("JagoLab", JSON.stringify(labReg))
+
 
 const getAllLab = () =>{
     let userLab = new Array();
@@ -65,3 +65,12 @@ document.getElementById("offer").addEventListener("input", function (t){
     testValue = t.target.value
 })
 
+
+const addOn = () =>{
+    let labFun = getAllLab()
+    labFun.push({LaboratoryName:labValue, location:localValue, PhoneNumber:numValue, EmailAddress:mailValue, 
+        AccreditationsCertification:certifyValue, OperatingHours:hoursValue, AppointmentAvailable:appiontValue, Testoffering:testValue})
+        localStorage.setItem("JagoLab", JSON.stringify(labFun))
+
+        return false
+}
