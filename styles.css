@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Fira Sans', sans-serif;
-font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 header{
     background-color: #041937;
@@ -116,16 +116,16 @@ a{
     color: #ffffff;
     display: flex;
     justify-content: center;
-    gap: 100px;
     width: 100%;
-    height: 500px;
+    height: 90vh;
     margin-top: 90px;
 }
 
 .hero h1{
-    width: 600px;
-    font-size: 55px;
-    margin-bottom: 40px;
+    width: 650px;
+    font-size: 60px;
+    margin-bottom: 50px;
+    padding-top: 20px;
 }
 .hero p{
     width: 600px;
@@ -136,8 +136,8 @@ a{
     padding-left: 60px;
 }
 .hero-img {
-    height: 500px;
-    width: 450px;
+    height: 678px;
+    width: 550px;
     overflow: hidden;
 }
 .hero-img img{
@@ -146,8 +146,8 @@ a{
     object-fit: cover;
 }
 .hero1{
-    background-color: #ffffff;
-    height: 450px;
+    background-color: #f7f5f5d5;
+    height: 550px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -156,14 +156,38 @@ a{
 .popular h1{
     width: 300px;
 }
-.popular2 {
+.short-test {
     display: flex;
+    padding-top: 20px;
+    text-decoration: underline;
 }
 .popular2 p{
-    margin-right: 40px;
+    margin-right: 100px;
     font-size: 20px;
+}
+.test-explain-image{
+    width: 280px;
+    height: 250px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.test-explain{
+    width: 500px;
+}
+.explains-test{
+    display: flex;
+    justify-content: center;
+    height: 280px;
     
 }
+.test-explain-image img{
+    width: 280px;
+    height: 280px;
+    border-radius: 5px;
+    object-fit: cover;
+    margin-left: 15px;
+}
+
 .view-more{
     background-color: #041937;
     color: white;

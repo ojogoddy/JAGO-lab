@@ -8,8 +8,11 @@ document.getElementById("signup-btn").addEventListener("click", function(e){
     {
         alert("Please enter your full details")
     }else{
+      
         localStorage.setItem("username", uName)
         localStorage.setItem("email", uEmail)
         localStorage.setItem("password", uPass)
+        alert("Signup Successful")
+        window.location.href="./welcome.html"
     }
 })
