@@ -101,6 +101,23 @@ button:hover{
     margin-right: 30px;
     margin-bottom: 20px;
     overflow: hidden;
+    position: relative;
+}
+.service-img1::before{
+    content: "";
+    background-color: rgba(24, 24, 46, 0.39);
+    height: 250px;
+    width: 280px;
+    position: absolute;
+    top: 0;
+}
+.service-image-text{
+    position: absolute;
+    height: 100%;
+    width: 280px;
+    top: 150px;
+    left: 40px;
+    color: white;
 }
 .service-img1 img{
     width: 280px;
