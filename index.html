@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,600;1,700;1,900&display=swap');
       </style>
@@ -17,13 +18,14 @@
                 <h3>JAGO <br>LAB</h3>
             </div>
             <div class="navigation">
-                <nav>HOME</nav>
-                <nav>ABOUT US</nav>
-                <nav>SERVICE</nav>
-                <nav>CONTACT US</nav>
+                <a href="./index.html"><nav>HOME</nav></a>
+                <a href="./About.html"><nav>ABOUT US</nav></a>
+                <a href="./service.html"><nav>SERVICE</nav></a>
+                <a href="./contact.html"><nav>CONTACT US</nav></a>
             </div>
             <div class="header-btn">
-                <button class="booknow-btn">Register Lab</button>
+                <button class="booknow-btn1"><a href="./signup.html">Sign up</a></button>
+                <button class="booknow-btn"><a href="./Register.html">Register Lab</a></button>
             </div>
         </div>
     </header>
@@ -31,12 +33,109 @@
         <div class="hero-text">
             <h1>Book Your Laboratory Appointment Online</h1>
             <p>Discove convenient and efficient healthcare booking with JAGO LAB. Access top laboratories, schedule medical tests, and manage your appointments seamlessly</p>
-            <button class="hero_btn">BOOK NOW</button>
+            <button class="hero_btn"><a href="./booking.html">BOOK NOW</a></button>
         </div>
         <div class="hero-img">
-            <img src="" alt="">
+            <img src="./image/front-view-doctor-wearing-stethoscope-removebg-preview.png" alt="">
         </div>
     </div>
-    
+    <div class="hero1">
+        <div class="popular">
+            <h1>
+                Our popular laboratory test services
+            </h1>
+            <button class="view-more">View More</button>
+        </div>
+        <div class="popular2">
+            <p>Hepatitis B</p>
+            <p>HIV/AIDS</p>
+            <p>MP/Widal</p>
+            <p>Pregnancy test</p>
+        </div>
+    </div>
+    <div class="hero2">
+        <div class="testimonial">
+            <h1>Testimonial</h1>
+            <h2>What Our Clients Say</h2>
+            <div class="testimonial-card">
+            <div class="test_card">
+                <p>"JAGO LAB made it so easy for me to book my test online. I got my results on time and the whole process was smooth and efficient."</P>
+                <h2>Jude Ebuka</h2>
+                <p>Happy Customer</p>
+            </div>
+            <div class="test_card">
+                <p>"JAGO LAB made it so easy for me to book my test online. I got my results on time and the whole process was smooth and efficient."</P>
+                <h2>Jude Ebuka</h2>
+                <p>Happy Customer</p>
+            </div>
+            <div class="test_card">
+                <p>"JAGO LAB made it so easy for me to book my test online. I got my results on time and the whole process was smooth and efficient."</P>
+                <h2>Jude Ebuka</h2>
+                <p>Happy Customer</p>
+            </div>
+            <div class="test_card">
+                <p>"JAGO LAB made it so easy for me to book my test online. I got my results on time and the whole process was smooth and efficient."</P>
+                <h2>Jude Ebuka</h2>
+                <p>Happy Customer</p>
+            </div>
+          </div>
+
+        </div>
+    </div>
+    <div class="hero3">
+        <div class="mission">
+            <h1>Our Mission</h1>
+            <p>We strive to stay at the forefront of advancements in medical technology, ensuring that our laboratory is equipped with state of the art instruments and cutting-edge methodologies. This enables us to offer a comprehensive range of tests that meet the evolving needs of healthcare providers and their patients</p>
+        </div>
+    </div>
+    <div class="lab-partner">
+        <div class="lab-text"><h2>Just a few of our Laboratory Partner</h2></div>
+        <div class="lab-logo">
+            <img src="./image/logo_CryoFit.png" alt="">
+            <img src="./image/logo_Entourage.png" alt="">
+            <img src="./image/logo_Lift.png" alt="">
+            <img src="./image/logo_LittleItaly.png" alt="">
+            <img src="./image/logo_MMFitness.png" alt="">
+            <img src="./image/logo_Salono.png" alt="">
+        </div>
+    </div>
+    <footer>
+        <div class="footer-sec">
+            <div class="footer1">
+                <h3>JAGO Lab</h3>
+                <nav>About Us</nav>
+                <nav>Newsroom</nav>
+                <nav>Careers</nav>
+                <nav>investors</nav>
+            </div>
+            <div class="footer2">
+                <h3>FAQs</h3>
+                <nav>Labs</nav>
+                <nav>Test Results</nav>
+                <nav>All Patients</nav>
+                <nav>All Providers</nav>
+            </div>
+            <div class="footer3">
+                <h3>Quick Links</h3>
+                <nav>Drug Development</nav>
+                <nav>Drug Testing</nav>
+                <nav>Paternity Testing</nav>
+                <nav>Health Testing</nav>
+            </div>
+            <div class="footer4">
+                <h3>Contact Us</h3>
+                <nav>Patients</nav>
+                <nav>Laboratory</nav>
+                <div class="social-icon">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-facebook"></i>
+
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
