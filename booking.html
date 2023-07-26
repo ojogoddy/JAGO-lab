@@ -36,11 +36,11 @@
             </div>
             <div class="form">
                 <form>
-                    <input id="" type="text" placeholder="Full Name" required>
+                    <input id="first" type="text" placeholder="Full Name" required value="">
                       <br>      
-                    <input id="" type="email" placeholder="Email address" required>
+                    <input id="second" type="email" placeholder="Email address" required value="">
                           <br>     
-                     <input id="" type="tel" placeholder="Phone number" required>
+                     <input id="third" type="tel" placeholder="Phone number" required value="">
                      <br>
                      <div class="check-box">
                         <h4>Gender :</h4>
@@ -48,7 +48,7 @@
                         <label for="Female">Female<input class="check" type="checkbox" name="Female"></label>
                      </div>
                      <br>
-                <button class="but-ton"> Book An Appointment</button>
+                <button onclick="addBooking()" class="but-ton" type="submit"> Book An Appointment</button>
                 </form>
 
              </div>
