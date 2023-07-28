@@ -3,6 +3,8 @@ body{
     padding: 0;
     font-family: 'Fira Sans', sans-serif;
     font-family: 'Montserrat', sans-serif;
+
+    overflow-x: hidden;
 }
 header{
     background-color: #041937;
@@ -14,6 +16,7 @@ header{
     justify-content: center;
     position: fixed;
     top: 0;
+    z-index: 10;
 
 }
 .header-sec{
@@ -102,9 +105,9 @@ button:hover{
     text-align: center;
     border: 2px solid #ffffff;
     padding: 10px;
-    width: 120px;
+    width: 140px;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 600;
     margin-bottom: 40px;
 }
 a{
@@ -115,54 +118,130 @@ a{
     background-color: #041937;
     color: #ffffff;
     display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 90vh;
-    margin-top: 90px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 90px 0;
+    height: 680px;
+    
+}
+.hero-text{
+    flex-basis: 40%;
+    position: relative;
+    margin-left: 90px;
 }
 
 .hero h1{
     width: 650px;
-    font-size: 60px;
+    font-size: 65px;
     margin-bottom: 50px;
     padding-top: 20px;
 }
 
 .hero p{
-    width: 600px;
+    width: 500px;
     line-height: 30px;
     margin-bottom: 40px;
+    font-size: 18px;
 }
-.hero-text{
-    padding-left: 60px;
+
+.hero-img{
+    position: relative;
+    flex-basis: 60%;
+    display: flex;
+    align-items: center; 
+    width: 90%;
 }
-.hero-img {
-    height: 678px;
-    width: 550px;
-    overflow: hidden;
+.box-hero{
+    animation-name: moveBox;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    position: relative;
+    left: 0;
+    margin-left: 50px;
+}@keyframes moveBox{
+    0%{
+        
+        left: 0;
+        top: 80px;
+      
+    }
+    100%{
+        
+        top: 0;
+        left: 0;
+    }
 }
-.hero-img img{
+.nurse{
+    z-index: 2;
+    height: 680px;
+    position: absolute;
+    left: 0;
+}
+.hero-nurse{
+    position: absolute;
+    right: 0;
+    bottom: 200px;
+    border-radius: 20px 0 0 20px;
     height: 100%;
-    width: 100%;
-    object-fit: cover;
+    width: 80%;
+    z-index: 1;
 }
+.hero-bk-img{
+    animation-name: circleBox;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    position: relative;
+    left: 0;
+    
+}@keyframes circleBox{
+    0%{
+        
+        left: 0;
+        top: 0;
+      
+    }
+    100%{
+        
+        top: 60px;
+        left: 0;
+    }
+}
+
 .hero1{
-    height: 550px;
+    height: 400px;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgba(166, 165, 165, 0.33);
 }
-.popular h1{
-    width: 300px;
+.popular{
+    width: 340px;
+    padding-left: 30px;
 }
 .short-test {
     display: flex;
+    justify-content: center;
     padding-top: 20px;
-    text-decoration: underline;
+    line-height: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+.service-line{
+    border-bottom: 2px solid rgba(128, 128, 128, 0.484);
+    padding-bottom: 10px;
+
+}
+.service-line:hover{
+    border-bottom: 3px solid #041937;
+    transform: scale(1.1);
+    transition: 0.5s ease-out;
 }
 .popular2 p{
-    margin-right: 100px;
+    margin-right: 140px;
     font-size: 20px;
     color: #041937;
 }
@@ -172,17 +251,23 @@ a{
 .test-explain-image{
     width: 280px;
     height: 250px;
-    border-radius: 5px;
+    border-radius: 10px;
     overflow: hidden;
+    padding-right: 120px;
 }
 .test-explain{
     width: 500px;
+}
+.test-explain p{
+    color: #041937ae;
 }
 .explains-test{
     display: flex;
     justify-content: center;
     height: 280px;
-    
+    margin-top: 20px;
+    gap: 60px;
+     
 }
 .test-explain-image img{
     width: 280px;
@@ -216,6 +301,7 @@ a{
 .testimonial{
     text-align: center;
     width: 100%;
+    margin:  60px 0;
 }
 
 .testimonial-card{
@@ -238,27 +324,60 @@ a{
     font-size: 14px;
     line-height: 20px;
 }
+.test_card-location{
+    color: #94E6FF;
+    font-style: italic;
+}
 .lab-partner{
     width: 100%;
-    height: 200px;
+    height: 250px;
     text-align: center;
     padding-top: 40px;
 }
 .lab-logo img{
-    margin-top: 20px;
-    margin-right: 30px;
+    
+    margin: 20px 50px 0 0;
+}
+.lab-logo{
+    animation-name: logoBox;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    position: relative;
+    left: 0;
+    margin-bottom: 30px;
+
+    
+}@keyframes logoBox{
+    0%{
+        
+        left: 0;
+        top: 0;
+      
+    }
+    100%{
+        
+        top: 0px;
+        left: 100px;
+    }
 }
 .hero3{
     background-image: url(./image/missionBackground.jpeg);
     color: #ffffff;
     text-align: center;
-    height: 250px;
+    height: 400px;
     width: 100%;
 }
 .mission{
-    padding-top: 20px;
+    padding-top: 70px;
     margin: 0 auto;
     width: 90%;
+    /* height: 600px; */
+}
+.mission p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
 }
 
 footer{
@@ -270,7 +389,6 @@ footer{
     justify-content: center;
     align-items: center;
     gap: 150px;
-    padding-top: 40px;
     width: 90%;
     height: 300px;
     margin-left: 90px;
@@ -290,4 +408,39 @@ footer{
 }
 i{
     margin-right: 10px;
+}
+
+
+
+@media screen and (max-width:470px) {
+    
+        /* Add specific styles for mobile devices here */
+        .header-sec {
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .logo {
+            margin-bottom: 10px; /* Add some space between the logo and navigation buttons */
+            text-align: center; /* Center the logo and the header text */
+        }
+    
+        .logo img {
+            max-width: 100%; /* Ensure the logo image fits within its container on mobile */
+        }
+    
+        .navigation {
+            text-align: center; /* Center the navigation links on mobile */
+            margin-bottom: 10px; /* Add some space between the navigation links and the header buttons */
+        }
+    
+        .header-btn {
+            text-align: center; /* Center the header buttons on mobile */
+        }
+    
+        .booknow-btn1,
+        .booknow-btn {
+            display: block; /* Display the buttons as blocks to take full width */
+            margin-bottom: 10px; /* Add some space between the buttons */
+        }
 }
