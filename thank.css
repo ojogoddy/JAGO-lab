@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+}
+.card-contat{
+    height: 80vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+}
+.card{
+    height: 250px;
+    width: 30%;
+    background-color: rgb(247, 244, 244);
+    text-align: center;
+    display: flex;
+    border-top: 5px solid #041937;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.card h1{
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.card p{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 0;
+}
+.icon i{
+  
+    padding: 10px 10px;
+    border: 3px solid black;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    border-radius: 360%;
+    /* background-color: blue; */
+
+}

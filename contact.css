@@ -9,6 +9,7 @@ header{
     height: 90px;
     width: 100%;
     position: fixed;
+	z-index: 10;
 }
 .header-sec{
     display: flex;
@@ -71,13 +72,13 @@ button:hover{
     padding-top: 95px;
 }
 .contact-div{
+	width: 60%;
     justify-content: space-between;
 }
 
 /* Contact left side */
 .contact-first{
 margin-left: 100px;
-/* animation-name: contactAnim; */
 animation-name: myHeading;
 animation-duration: 3s;
 position: relative;
@@ -92,7 +93,6 @@ top: 0;
         left: 0;
     }
 }
-
 .contact-first p{
     font-size: 20px;
     font-weight: 400;
