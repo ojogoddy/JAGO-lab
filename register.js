@@ -71,6 +71,5 @@ const addOn = () =>{
     labFun.push({LaboratoryName:labValue, location:localValue, PhoneNumber:numValue, EmailAddress:mailValue, 
         AccreditationsCertification:certifyValue, OperatingHours:hoursValue, AppointmentAvailable:appiontValue, Testoffering:testValue})
         localStorage.setItem("JagoLab", JSON.stringify(labFun))
-
         return false
 }

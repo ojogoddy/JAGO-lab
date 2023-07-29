@@ -91,6 +91,18 @@ input{
     background-color: #ffffff;
     
 }
+select{
+    height: 50px;
+    width: 600px;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid #041937;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    background-color: #ffffff;
+    color: #041937;
+    font-size: 15px;
+}
 
 
 input::placeholder{
