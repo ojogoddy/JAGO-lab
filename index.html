@@ -11,41 +11,57 @@
       </style>
 </head>
 <body>
-    <header>
-        <div class="header-sec">
-            <div class="logo">
-                <img src="./image/Untitled-1 copy.png" alt="">
-                <h3>JAGO <br>LAB</h3>
+    <div class="container">
+        <header>
+            <div class="header-sec">
+                    <img src="./image/Untitled-1 copy.png" alt="" class="logo">
+                    <h3>JAGO <br>LAB</h3>
+                <nav>
+                    <ul id="menuList">
+                        <li><a href="./index.html">HOME</a></li>
+                        <li><a href="./About.html">ABOUT</a></li>
+                        <li><a href="./contact.html">CONTACT US</a></li>
+                        <li><a href="./service.html">SERVICE</a></li>
+                        <li><div class="header-btn" id="menuList">
+                            <button class="booknow-btn1"><a href="./signup.html">Sign up</a></button>
+                            <button class="booknow-btn"><a href="./Register.html">Register Lab</a></button>
+                        </div></li>
+                    </ul>
+                    
+                </nav>
+                    <div class="fa-solids">
+                        <i class="fa-solid fa-bars fa-2xl" onclick="togglemenu()"></i> 
+                    </div> 
             </div>
-            <div class="navigation">
-                <a href="./index.html"><nav>HOME</nav></a>
-                <a href="./About.html"><nav>ABOUT US</nav></a>
-                <a href="./service.html"><nav>SERVICE</nav></a>
-                <a href="./contact.html"><nav>CONTACT US</nav></a>
+        </header>
+        <div class="hero">
+            <div class="hero-text">
+                <h1>Book Your Laboratory Appointment Online</h1>
+                <p>Discover convenient and efficient healthcare booking with JAGO LAB. Access top laboratories, schedule medical tests, and manage your appointments seamlessly</p>
+                <button class="hero_btn"><a href="./booking.html">BOOK NOW</a></button>
             </div>
-            <div class="menu">
-                <i class="fa-solid fa-bars fa-2xl"></i>
+            <div class="hero-img">
+                <img src="./image/shape-03.png" alt="" class="box-hero">
+                <img src="./image/front-view-doctor-wearing-stethoscope-removebg-preview.png" alt="" class="nurse">            
+                <div class="hero-nurse">
+                    <img src="./image/bg-02.png" alt="" class="hero-bk-img">
+                </div>
             </div>
-            <div class="header-btn">
-                <button class="booknow-btn1"><a href="./signup.html">Sign up</a></button>
-                <button class="booknow-btn"><a href="./Register.html">Register Lab</a></button>
-            </div>
+            
         </div>
-    </header>
-    <div class="hero">
-        <div class="hero-text">
-            <h1>Book Your Laboratory Appointment Online</h1>
-            <p>Discove convenient and efficient healthcare booking with JAGO LAB. Access top laboratories, schedule medical tests, and manage your appointments seamlessly</p>
-            <button class="hero_btn"><a href="./booking.html">BOOK NOW</a></button>
+    </div>
+    <div class="hero0">
+        <div class="have-q">
+            <h1>Have A Question</h1>
+            <p>We understand that healthcare can be complex and overwhelming and we are committed to making the process as easy and stress free as possible</p>
+            <button class="hero_btn"> Contact Us</button>
         </div>
-        <div class="hero-img">
-            <img src="./image/shape-03.png" alt="" class="box-hero">
-            <img src="./image/front-view-doctor-wearing-stethoscope-removebg-preview.png" alt="" class="nurse">            
-            <div class="hero-nurse">
-                <img src="./image/bg-02.png" alt="" class="hero-bk-img">
-            </div>
+        <div class="reach-out">
+            <h1>Reach Out To Us At</h1>
+            <p>+234-90-7623-8539</p>
+            <p> jagolab01@gmail.com</p>
+            <p> service Hours: 24hrs</p>
         </div>
-        
     </div>
     <div class="hero1">
         <div class="popular">
@@ -56,15 +72,31 @@
         </div>
         <div class="popular2">
             <div class="short-test">
-                <p class="service-line" id="sl-a">Hepatitis B</p>
-                <p class="service-line" id="sl-b">HIV/AIDS</p>
-                <p class="service-line" id="sl-c">MP/Widal</p>
-                <p class="service-line" id="sl-d">Pregnancy test</p>
+                <p class="service-line"  onclick="showTest('sl-xx-a')">Hepatitis B</p>
+                <p class="service-line"  onclick="showTest('sl-xx-b')">HIV/AIDS</p>
+                <p class="service-line"  onclick="showTest('sl-xx-c')">MP/Widal</p>
+                <p class="service-line"  onclick="showTest('sl-xx-d')">Pregnancy test</p>
             </div>
-            <div class="explains-test">
-                <div class="test-explain"><h2 id="sl-x">Hepatitis B</h2>
-                <p id="sl-xx">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, magnam! Natus hic sed error fuga quo, officiis iste. Eligendi omnis illum temporibus velit dolore quas?</p></div>
-                <div class="test-explain-image"><img src="./image/Blood Test Image.jpg" alt=""></div>
+            <div class="explains-test" >
+                <div class="test-explain" id="sl-xx-a"><h2>Hepatitis B</h2>
+                <p>
+                    The Hepatitis B test is utilized to detect the presence of the Hepatitis B virus (HBV) in the bloodstream. It involves analyzing a blood sample to identify specific viral markers, such as antigens and antibodies, which help determine if a person has been exposed to the virus or is currently infected.
+                </p></div>
+                <div class="test-explain" id="sl-xx-b"><h2>HIV/AIDS</h2>
+                <p>
+                    The HIV/AIDS test is employed to diagnose the Human Immunodeficiency Virus (HIV), which leads to Acquired Immunodeficiency Syndrome (AIDS). Early detection of HIV is essential for initiating appropriate medical treatment, managing the disease's progression, and adopting preventive measures to protect others from infection.
+                </p></div>
+                <div class="test-explain" id="sl-xx-c"><h2>MP/WIDAL</h2>
+                <p>
+                    The MP and Widal tests are commonly conducted together. The MP test identifies the presence of the malaria parasite in the blood, aiding in malaria diagnosis. The Widal test, on the other hand, helps diagnose enteric fever. These tests are crucial for the timely identification and treatment of malaria and enteric fever.
+                </p></div>
+                <div class="test-explain" id="sl-xx-d"><h2>PREGNANCY TEST</h2>
+                <p>
+                    The Pregnancy test is widely used to determine if a woman is pregnant. The test can confirm pregnancy within a few days after a missed menstrual period. Early detection of pregnancy allows expectant mothers to initiate prenatal care and make informed decisions regarding their health.
+                </p></div>
+                
+                <!-- <div class="test-explain-image" ><img src="./image/Blood Test Image.jpg" alt=""></div> -->
+                
             </div>
         </div>
     </div>
